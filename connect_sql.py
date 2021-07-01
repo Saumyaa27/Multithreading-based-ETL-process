@@ -33,7 +33,7 @@ mydb.commit()
 df1.to_csv('analysis.csv', index=False)
 
 
-#case 2
+#CASE 2
 
 df=pd.read_csv("analysis.csv")
 conn = pymysql.connect(host="localhost", user='root', password='alaskayoung', database='MYDB')
@@ -69,7 +69,7 @@ for j in range(len(l)):
 df.to_csv('analysis.csv', index=False)
 
 
-#case 3
+#CASE 3
 
 l=[5,10,15,20,25]
 
