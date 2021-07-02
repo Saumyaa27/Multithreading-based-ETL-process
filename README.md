@@ -30,8 +30,18 @@ For the process of Multithreading, I have used the ThreadPoolExecutor class avai
 
 For all the above 3 cases and all the number of records, I have noted the time in 'analysis.csv' file.<br>
 
-0	1	2
-1.890067577	5.041134357	0.242992401
+<table>
+  <tr>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>1.890067577</td>
+    <td>5.041134357</td>
+    <td>0.242992401</td>
+    </tr>
+  </table>
 8.837369204	10.03750229	0.488361597
 1.531428337	4.055989265	1.608299494
 3.995323658	7.610261917	1.230496168
