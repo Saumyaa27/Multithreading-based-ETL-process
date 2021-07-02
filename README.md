@@ -1,6 +1,8 @@
 # Multithreading-based-ETL-process
 
-In this project, I have created a table in MySQL, extracted the data from it, Tranformed it and then Loaded it again in the table. This ETL process has been implemented in 3 cases (discussed below) and I have analyzed the amount of time it takes to run the 3 cases.
+In this project, I have done a comparison of different techniques for tranforming a large dataset and compared the time taken in each technique.
+
+For this, I have created a table in MySQL, extracted the data from it, Tranformed it and then Loaded it again in the table. This ETL process has been implemented in 3 cases (discussed below) and I have analyzed the amount of time it takes to run the 3 cases.
 The above process has been done for different number of rows in the table i.e. 5000 rows, 10,000 rows, 15,0000 rows, 20,000 rows and 25,000 rows.
 
 Database name: mydb
@@ -29,6 +31,7 @@ CASE 3:<br>
 For the process of Multithreading, I have used the ThreadPoolExecutor class available in python. 
 
 For all the above 3 cases and all the number of records, I have noted the time in 'analysis.csv' file.<br>
+Result in analysis.csv:<br>
 
 <table>
   <tr>
@@ -62,3 +65,5 @@ For all the above 3 cases and all the number of records, I have noted the time i
     <td>0.915403366</td>
 </table>
 
+In the above table, the columns depict the 3 cases taken and the rows show the different number of records taken (5000 rows, 10,000 rows, 15,0000 rows, 20,000 rows and 25,000 rows.)
+From the table, we can conclude that CASE2 i.e. the case in which I have done Multithreading takes the least time to complete.
