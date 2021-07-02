@@ -88,10 +88,8 @@ def load(file):
     for row in df.itertuples():
         query1 = "insert into studentc3 values(" + str(row.id) + ',' + '"' + str(row.name) + '"' + ',' + str(
             row.age) + ',' + '"' + str(row.address) + '"' + ',' + str(row.gender) + ");"
-        query2 = "select * from studentc3;"
         cursor = conn.cursor()
         cursor.execute(query1)
-        cursor.execute(query2)
     conn.commit()
 
 def transform(file):
