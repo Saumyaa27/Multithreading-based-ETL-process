@@ -33,7 +33,7 @@ For the process of Multithreading, I have used the ThreadPoolExecutor class avai
 For all the above 3 cases and all the number of records, I have noted the time in 'analysis.csv' file.<br>
 Result in analysis.csv:<br>
 
-In the above table, the columns depict the 3 cases (case 0,1,2) taken and the rows show the different number of records taken (5000 rows, 10,000 rows, 15,0000 rows, 20,000 rows and 25,000 rows.)
+In the table below, the columns depict the 3 cases (case 0,1,2) taken and the rows show the different number of records taken (5000 rows, 10,000 rows, 15,0000 rows, 20,000 rows and 25,000 rows.)
 
 <table>
   <tr>
