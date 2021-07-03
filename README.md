@@ -37,6 +37,7 @@ In the above table, the columns depict the 3 cases (case 0,1,2) taken and the ro
 
 <table>
   <tr>
+    <td></td>
     <td> CASE 0</td>
     <td> CASE 1</td>
     <td> CASE 2</td>
