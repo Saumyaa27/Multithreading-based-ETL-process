@@ -33,37 +33,44 @@ For the process of Multithreading, I have used the ThreadPoolExecutor class avai
 For all the above 3 cases and all the number of records, I have noted the time in 'analysis.csv' file.<br>
 Result in analysis.csv:<br>
 
+In the above table, the columns depict the 3 cases (case 0,1,2) taken and the rows show the different number of records taken (5000 rows, 10,000 rows, 15,0000 rows, 20,000 rows and 25,000 rows.)
+
 <table>
   <tr>
-    <td>0</td>
-    <td>1</td>
-    <td>2</td>
+    <td> CASE 0</td>
+    <td> CASE 1</td>
+    <td> CASE 2</td>
   </tr>
   <tr>
+    <td>5000</td>
     <td>1.890067577</td>
     <td>5.041134357</td>
     <td>0.242992401</td>
   </tr>
   <tr>
+    <td>10000</td>
     <td>8.837369204</td>
     <td>10.03750229</td>
     <td>0.488361597</td>
   </tr>
   <tr>
+    <td>15000</td>
     <td>1.531428337</td>
     <td>4.055989265</td>
     <td>1.608299494</td>
   </tr>
   <tr>
+    <td>20000</td>
     <td>3.995323658</td>
     <td>7.610261917</td>
     <td>1.230496168</td>
   </tr>
   <tr>
+    <td>25000</td>
     <td>1.074378967</td>	
     <td>7.832616568</td>	
     <td>0.915403366</td>
 </table>
 
-In the above table, the columns depict the 3 cases taken and the rows show the different number of records taken (5000 rows, 10,000 rows, 15,0000 rows, 20,000 rows and 25,000 rows.)
+
 From the table, we can conclude that CASE2 i.e. the case in which I have done Multithreading takes the least time to complete.
