@@ -15,16 +15,16 @@ Transformations applied on all records: <br>
 3) Converted address to uppercase<br>
 4) Complemented the gender
 
-CASE 1:<br>
+CASE 0:<br>
 1) Extracted data from table 'student1' <br>
 2) Tranformed the data while Loading it to table 'studentc1'
 
-CASE 2:<br>
+CASE 1:<br>
 1) Extracted data from table 'student2' to a file 'output.csv' <br>
 2) Applied the transformations on the file.<br>
 3) Loaded the data from the file to the table 'studentc2'
 
-CASE 3:<br>
+CASE 2:<br>
 1) Extracted data from table 'student3' into a number of small files (each file contains a subset of the whole data)<br>
 2) Applied the transformations on all the files simultaneously using <b>multithreading</b> (I have taken 5 threads here)<br>
 3) Loaded the data from the files to the table 'studentc3'<br>
